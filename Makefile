@@ -41,6 +41,6 @@ zip:clean
 
 clean:
 	$(RM) ./$(TARGET)
-	$(RM) $(DIR)/*.o
+	$(RM) *.o
 	$(RM) ./$(ZIPFILE)
-	$(RM) $(DIR)/lex.yy.c
+	$(RM) lex.yy.c
